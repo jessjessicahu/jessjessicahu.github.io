@@ -1,2 +1,3 @@
 name: Jessica Hu
 markdown: cramdown
+permalink: /blog/:year/:month/:day/:title
