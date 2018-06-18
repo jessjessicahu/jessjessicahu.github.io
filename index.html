@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>About Jessica Hu</title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -26,7 +26,7 @@ body, html {
 .bgimg-1 {
     /*background-image: url('/w3images/parallax1.jpg');*/
     background-color:lightblue;
-    min-height: 50%;
+    min-height: 100%;
 }
 
 
@@ -58,17 +58,16 @@ body, html {
     </a>
     <a href="#home" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-home"></i> HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#blog" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-heart"></i> PASSION</a>
+    <a href="#passion" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-heart"></i> PASSION</a>
+    <a href="#career" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-file-text"></i> CAREER</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-phone"></i> CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
-    </a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#blog" class="w3-bar-item w3-button" onclick="toggleFunction()">PASSION</a>
+    <a href="#passion" class="w3-bar-item w3-button" onclick="toggleFunction()">PASSION</a>
+    <a href="#career" class="w3-bar-item w3-button" onclick="toggleFunction()">CAREER</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
   </div>
 </div>
@@ -80,6 +79,8 @@ body, html {
   </div>
 </div>
 
+
+
 <!-- About Me -->
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">ABOUT ME</h3>
@@ -87,28 +88,26 @@ body, html {
 </div>
 <!-- Statistics bar -->
 <div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <div class="w3-quarter w3-section">
+  <div class="w3-third w3-section">
     <span class="w3-xlarge">24+</span><br>
     Earth Experienced
   </div>
-  <div class="w3-quarter w3-section">
+  <div class="w3-third w3-section">
     <span class="w3-xlarge">17+</span><br>
     City Conquered
   </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">53+</span><br>
+  <div class="w3-third w3-section">
+    <span class="w3-xlarge">101+</span><br>
     Hand Shaked
   </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">366+</span><br>
-    Moments Laughed
-  </div>
+  
 </div>
 
 
 
+
 <!-- Passion -->
-<div class="w3-content w3-container w3-padding-64" id="blog">
+<div class="w3-content w3-container w3-padding-64" id="passion">
   <h3 class="w3-center">THINGS I LOVE</h3>
   <p class="w3-center"><em>Never hurt to share.</em></p>
   <p class="w3-wide"><i class="fa fa-plane"></i>Travel</p>
@@ -125,40 +124,33 @@ body, html {
   </div>
 </div>
 
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
+
+<!-- Career -->
+<div class="w3-content w3-container w3-padding-64" id="career">
+  <h3 class="w3-center">WHAT I DO FOR LIVING</h3>
+  <p class="w3-center"><em>Money is a kind of freedom that can deprived one's true liberty.</em></p>
+  
 </div>
 
-<!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
-  </div>
-</div>
 
-<!-- Container (Contact Section) -->
+<!-- Contact -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
   <h3 class="w3-center">I AM HERE!</h3>
   <p class="w3-center"><em>LITTEL CONNECT DOESN'T KILL</em></p>
-  <div class="w3-row w3-padding-16 w3-section">
-     <p class="w3-center w3-large"><i class="fa fa-map-marker w3-margin-right w3-xlarge"></i>Taipei, Taiwan</p><br>
-     <p class="w3-center w3-large"><i class="fa fa-facebook-official w3-margin-right w3-xlarge"></i>Jessica Hu</p><br>
-     <p class="w3-center w3-large"><i class="fa fa-instagram w3-margin-right w3-xlarge"></i>jessjessicahu</p><br>
-     <p class="w3-center w3-large"><i class="fa fa-envelope w3-margin-right w3-xlarge"></i>chien821016@gmail.com</p><br>
-      
-  </div>
-    
-      
-        
-      
-    
-  </div>
-  
+  <div class="w3-row w3-padding-32 w3-section">  
+    <div class="w3-col m4 w3-container">
+    </div>
+    <div class="w3-col m8 w3-container">
+     <div class="w3-large w3-margin-bottom">
+         <i class="fa fa-map-marker w3-margin-right w3-large"></i>Taipei, Taiwan<br>
+         <i class="fa fa-facebook-official w3-margin-right w3-large"></i>Jessica Hu<br>
+         <i class="fa fa-instagram w3-margin-right w3-large"></i>jessjessicahu<br>
+         <i class="fa fa-linkedin-square w3-margin-right w3-large"></i>jessjessicahu<br>
+         <i class="fa fa-envelope w3-margin-right w3-large"></i>chien821016@gmail.com<br> 
+     </div>
+   </div> 
+ 	
+ </div> 
 </div>
 
 <!-- Footer -->
